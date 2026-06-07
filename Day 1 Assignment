@@ -1,0 +1,72 @@
+ What is Cybersecurity and its Key Purpose?
+Ans : Cybersecurity is about keeping your digital assets safe from hackers and scammers. Your digital assets include your phone, computer, and online accounts.
+
+ What's the CIA Triad and how is it connected to Cybersecurity's key purpose?
+
+CIA connects directly to cybersecurity's main purpose because these three things are the exact goals you are trying to achieve when you protect any data.
+CIA Triad ( Confidentiality, Integrity, Availability )
+1. Confidentiality
+    - Keeping secrets hidden from unauthorized.
+    - Protect data on systems, in transit, in process.
+2. Integrity
+    - Ensure data is accurate and not tampered with.
+    - Include the detection of alterations that occurred in storage, transit, process.
+3. Availability
+    - Make sure systems work when users need them.
+    - Prevention of data loss and destruction.
+    - Reliable backups, redundancy.
+
+What is Governance, Risk and Compliance (GRC) and how is it connected to the CIA Triad? Name some GRC frameworks and compliances.
+
+GRC (Governance, Risk, and Compliance)
+1. Governance: The rule and policies to manage security.
+2. Risk: Identify digital threats and finding ways to stop them before they happen.
+3. Compliance: Follow official security laws and regulations so the company doesn't get fined.
+
+Connection to the CIA Triad:
+The GRC framework acts as the strategic management engine that ensures your organization effectively enforces the CIA Triad of information security.
+
+GRC frameworks and compliances: 
+
+Frameworks 
+NIST CSF: A standard US guide used to organize and improve everyday security.
+ISO 27001: An international playbook for building a secure security management system.
+
+Compliances (Mandatory Laws):
+HIPAA: A US law protecting medical records and healthcare data.
+PCI-DSS: Strict rules that any business must follow to safely accept credit card payments.
+GDPR: Strict European law forcing companies to protect personal online privacy.
+
+What's the difference between a Threat and a Risk?
+
+Threat → A potential danger that can hurt system.
+Risk → A chance of damage.
+Vulnerability → A weakness that can be attacked.
+Risk is measured using the fundamental security equation: Risk= Threat × Vulnerability × Impact
+
+What are the Major Domains in Cybersecurity? What kind of work does each domain involve?
+
+Cybersecurity is a huge field but generally it is divided up into a few main areas. Each area is about protecting a different part of the digital world.
+
+Here are the main areas and what the day to day work actually looks like:
+
+1. Security and Risk Management: Manage threats and make security policies.
+2. Asset Security : Protect company or business data.
+3. Security Architecture and Engineering : Focus on designing secure systems.
+4. Communication and Network Security : Secure networks and communications.(Firewall,vpn)
+5. Identity and Access management : Control identities, access (passwords, MFA)
+6. Security Assessment and Testing : Find vulnerabilities and test.
+7. Security Operations : Monitor and defence.(SOC 24/7)
+8. Software Development Security : Develop apps, secure code, fixing bugs.
+9. Security in the Cloud : Protect cloud resources(AWS, Azure, Oracle, Google cloud) 
+10. Governance, Compliance, and legal : Ensure company policy and legal requirements.
+11. Threat Intelligence : Gather, analyze, use data about emerging risks to predict attacks.
+12. Incident Response and Forensics : Detect, contain, and investigate cyberattacks while gathering evidence.
+13. Endpoint Security : Protect individual devices connected to the network (laptops, desktops, servers).
+14. Cryptography and Encryption: Use secure algorithms and keys to keep data confidential and ensure integrity.
+15. Mobile Security: Protect mobile devices, smartphones, and mobile apps from malware and phishing.
+16. IoT (Internet of Things) Security: Protect connected smart gadgets (smart cameras, sensors) from unauthorized access.
+17. Industrial Control Systems (ICS) / OT Security: Defend critical infrastructure (power grids, manufacturing, transportation plants).
+18. User Education and Awareness: Train employees to recognize social engineering attacks like phishing.
+19. Physical and Environmental Security: Protect actual physical facilities, server rooms, and hardware using locks, guards, and cameras.
+20. Business Continuity & Disaster Recovery (BCDR): Plan how to maintain operations and recover systems after a catastrophic cyberattack or natural disaster.
