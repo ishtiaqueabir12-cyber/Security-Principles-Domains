@@ -1,0 +1,369 @@
+ Explain what a Hacker is in your own terms. What are the various types of hackers and what are the differences between them?
+A hacker is someone who uses his technical knowledge and skills to understand, analyze, and manipulate computer systems, networks, applications, digital devices.
+
+Types of Hackers
+
+White Hat Hackers
+
+White Hat Hackers are security professionals who use hacking techniques legally and with permission to increase security.
+
+Characteristics
+
+- Authorized Access : Never test a system without permission from the system owner.
+- Legal Activities : Follow all cyber laws closely and make sure their work is completely legal.
+- Security-Focused : Only goal is protection. They look for security flaws to help the company fix them and stop hackers from attacking.
+- Professional and Ethical : Follow strict rules. Respect private data, keep secrets, and report security flaws safely to the company.
+
+
+Black Hat Hackers
+
+Black Hat hackers break into systems without permission for illegal or malicious reasons.
+
+Characteristics
+
+- No Authorization: Never ask for permission and break into systems illegally.
+- Illegal Activities: Break cyber laws and risk getting arrested or going to jail.
+- Malicious Intent:  Only goal is to cause harm or damage to their targets.
+- Often Financially Motivated: Usually driven by greed and making quick money.
+
+Grey Hat Hackers
+
+Grey hat hackers operate in the cybersecurity middle ground.They hack without explicit permission, but unlike malicious black hat hackers, their intent is generally not to cause harm or steal data. Instead, they often uncover security flaws and offer to fix them, sometimes for a fee.
+
+
+Characteristics
+
+- No Authorization: They break into systems without asking or telling the owner.
+- Legally Risky: They act without permission, their activities can still break cyber laws.
+- Mixed Intent: They don't want to steal or destroy things, but they still cross legal boundaries.
+- Motivated by Rewards or Reputation:** They do it for the prize money or to show off their skills.
+
+Script Kiddies
+
+A Script Kiddie is someone with limited knowledge who use hacking tools, scripts or software developed by others.
+
+Characteristics
+
+- Low skill level
+- Uses pre-made tools
+- Limited understanding
+
+State-Sponsored Hackers
+
+State-sponsored hackers work directly or indirectly for governments.
+
+Characteristics
+
+- Highly Trained: They are elite cyber experts working for the military or intelligence agencies.
+- Well-Funded: They have huge budgets paid for by governments.
+- Advanced Tools: They use high-tech, custom software that regular hackers cannot get.
+
+Insider Threats
+
+An insider threat is someone inside a company who misuses their given access to cause harm.
+
+Characteristics
+
+- Already Inside: They already have permission to use the system, unlike outside hackers.
+- Broken Trust: They abuse the trust the company gave them.
+- Hard to Catch: Because they belong in the system, security tools have a harder time spotting them.
+
+
+
+
+ Describe what an Advanced Persistent Threat is?
+
+Advanced Persistent Threat (APT)
+
+APT is a long-term, hidden cyberattack where highly skilled hackers sneak into a specific network and stay there for a long time to steal secret data.
+
+Advanced: The hackers are experts who use top-tier custom tools or techniques. ( Malware, Zero-Day Vulnerabilities)
+
+Persistent: They are patient. They stay hidden inside the system for months or years. ( Break in → Stay hidden → gather information → maintain access )
+
+Threat: It is a planned attack by real people targeting a specific victim. ( bank, government agencies, military systems, research institutions )
+
+
+
+What's the difference between how a Script Kiddie, Hacktivist and an APT operate
+
+How a Script Kiddie Operates
+
+A Script Kiddie is someone with limited knowledge who use hacking tools, scripts or software developed by others.
+
+Typical Process
+
+- Finds a hacking tool online.
+- Watches a youtube tutorial or follow instruction.
+- Choose an easy target.
+- Runs the tool.
+- Hopes the attack works.
+
+Example
+
+- Download a DDoS tool.
+- Enter the server's IP address.
+- Start Attack.
+
+Characteristics
+
+- Little planning.
+- Low skill level.
+- Use existing tools.
+- seek attention, curiosity, entertainment.
+
+How a Hactivist Operates
+
+A Hacktivist attacks systems to support a political, social, religious, or ideological cause
+
+Typical Process
+
+- Identify an organization or government they disagree.
+- Plan an operation.
+- Launch attacks in website defacement, data leaks, or service disruptions.
+- Publicly announce the attack.
+- Use media attention to spread their message.
+
+Example
+
+- Target government website.
+- Replace the homepage with a protest message.
+- Post about the attack on social media.
+
+Characteristics
+
+- Want maximum attention.
+- They send message, make statements,protest against government.
+- Operates in groups.
+
+How an APT Operates
+
+Research : Gather information about the target.
+
+- Employee names
+- Email address
+- Technologies used
+
+Initial Access : Gain entry into the system
+
+- Phishing email.
+- Exploit vulnerabilities.
+- Stolen credentials.
+
+Establish Persistence :
+
+- Install tools.
+- Create Backdoors.
+
+Privilege Escalation : Gain high level permissions
+
+- User account → Administrator account.
+
+Lateral Movement : Move through the network to access other systems. they find
+
+- Database
+- Servers
+- Sensitive files
+
+Data Collection : Gather valuable information
+
+- Financial records
+- Government documents
+- Customer data
+- Research information
+
+Data Exfiltration : Stolen information secretly transfer outside the organization
+
+Maintain Access : The attackers keep hidden access for future operations.
+
+
+Find out and write what the Lazarus APT Group did in Bangladesh
+
+Lazarus Group is North Korean state-sponsored APT. In February 2016 they struck during the weekend.They stole almost $81 million from Bangladesh Bank.
+
+How they operate the APT
+
+Research
+
+- Gathered information about bangladesh bank network and employees.
+
+Initial Access
+
+- Sent spear-phishing emails to bank employees.
+- Employee opened a malicious attachment, letting malware into the system.
+
+Establish Persistence
+
+- Install custom tools and stay hidden inside bank’s system
+
+Privilege Escalation
+
+- Stole high level employee credentials and gain full control of the SWIFT terminal (The system used for global money transfers).
+
+Lateral Movement
+
+- Sneaked from computer to computer and find where the money transfers were approved.
+- They attacked on  Thursday night (New York time) / Friday morning (Dhaka time) when both banks were closed for the weekend and giving them **3** days to steal the money without getting caught.
+
+Data Collection
+
+- They created 35 fake financial messages to sneak $951 million out of the bank.
+
+Data Exfiltration
+
+- Sent the fake messages to transfer the money out.
+- A spelling mistake (fandation) blocked hackers from stealing the remaining $850 million.
+- $81 million still slipped through to fake accounts in the Philippines.
+
+Maintain Access
+
+- They delete their data and hide the $81 million using casinos.
+
+
+Name 5 or more other notorious APT groups and their crimes
+
+APT28 (Fancy Bear/Forest Blizzard)
+
+Country : Russia
+
+Crime : 
+
+- Political hacking
+- Election related cyber spying
+
+APT29 (Cozy Bear/Midnight Blizzard)
+
+Country : Russia
+
+Crime :
+
+- Cyber espionage
+- Government network infiltration
+
+APT41 (Double Dragon)
+
+Country : China
+
+Crime : 
+
+- Intellectual property theft
+- Corporate espionage
+
+Sandworm
+
+Country : Russia
+
+Crime : 
+
+- Critical infrastructure attacks
+- Destructive cyberattacks
+
+Lazarus Group
+
+Country : North Korea
+
+Crime :
+
+- Cryptocurrency exchange thefts
+- Financial cybercrime
+
+
+ What are the notable cybersecurity laws in Bangladesh and abroad?
+
+Bangladesh Cybersecurity Laws
+
+1.  Cyber Security Act 2023
+    
+    Purpose :
+    
+    - Prevent cybercrime
+    - Protect digital systems
+    - Address hacking and unauthorized access
+    - Combat online fraud and cyber threats
+    
+    Covered Crimes
+    
+    - Unauthorized access to computer systems
+    - Identity theft
+    - Digital fraud
+    - Data-related offenses
+    - Cyberattacks against organizations
+2. Information and Communication Technology (ICT) Act 2006
+    
+    Purpose :
+    
+    - Address electronic crimes.
+    - Regulate digital communications.
+    - Punish hacking and computer related offenses.
+
+ International Cybersecurity Laws
+
+1. Computer Fraud and Abuse Act (CFAA) – United States
+    
+    Purpose
+    
+    - Unauthorized access to computers
+    - Computer fraud
+    - Damage to computer systems
+    - Theft of digital information
+2. General Data Protection Regulation (GDPR) – European Union
+    
+    Purpose
+    
+    - Protects personal data and privacy.
+    - Enhance Data Rights
+    - Build Consumer Trust
+3. Computer Misuse Act 1990 – United Kingdom
+    
+    Purpose
+    
+    - Unauthorized Access
+    - Unauthorized Impairment
+    - Unauthorized Access with Intention
+
+
+Explain why unauthorised hacking is a crime even if no damage is done in your own words
+
+Unauthorized hacking is a crime because it breaks the owner's right to control access to their systems. Even if no harm is done, the hacker enters without permission. This violates privacy and security. Just like it's illegal to enter someone's house without permission, it's also illegal to access a computer system without authorization, no matter if something is stolen or damaged.
+
+
+Describe some of the various punishments of cybercrime
+
+1. Hacking and Unauthorized Access
+    
+    Punishment
+    
+    - General Hacking : Up to 3 years in prison and monetary fines.
+    - Hacking into protected systems :  Up to 14 years of imprisonment and significant fines
+2. Cyber Fraud, Phishing, and Identity Theft
+    
+    Punishment
+    
+    - 6 months to 10 years in prison, with monetary fines
+3. Cyber Stalking and Harassment
+    
+    Punishment
+    
+    - Starting from a few months up to 3 to 5 years in prison
+4. Ransomware and Malware Distribution
+    
+    Punishment
+    
+    - 5 to 10  years in prison and forfeiture the equipment used in the crime and mandatory fines.
+
+
+Explain what Responsible Vulnerability Disclosure is and it's process
+
+It is a teamwork process where ethical hackers find security flaws and report them secretly to the company so they can fix them before real criminals can exploit them.
+
+This process has the following steps
+
+1. Discovery: A friendly hacker finds a security loophole.
+
+2. Reporting: They tell the company about it quietly and securely.
+
+3. Verification: The company checks the report to confirm the bug is real.
+
+4. Remediation: The company builds and rolls out a security fix (patch).
+
+5. Disclosure: The bug is made public so everyone can update, and the hacker gets shout-outs/credit for helping.
